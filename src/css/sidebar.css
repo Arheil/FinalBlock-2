@@ -80,6 +80,14 @@ button {
   margin-left: -40px;
 }
 
+.sidebar__item--selected::before {
+	content: url(./static/highlight.svg);
+	margin-left: -30px;
+	margin-top: -10px;
+	max-height: 22px;
+	float: left;
+}
+
 .sidebar__link::before {
   content: url("../img/img-content/highlight.svg");
   margin-left: -24px;
