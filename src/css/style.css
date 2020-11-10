@@ -451,8 +451,6 @@ button {
   min-height: 1024px;
   height: 100vh;
   background-color: white;
-  z-index: 3;
-  top: 0;
   overflow-y: auto;
   -ms-overflow-style: none;
 }
@@ -1133,7 +1131,7 @@ input:focus {
     margin-right: auto;
   }
   .uppermenu__service-title::before {
-    content: url("./static/highlight.svg");
+    content: url("../img/highlight.svg");
     margin-left: -40px;
     margin-top: 0px;
     max-height: 22px;
